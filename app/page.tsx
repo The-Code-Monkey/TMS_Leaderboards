@@ -21,11 +21,11 @@ export default function Home() {
           {/*    RMCT <br /> Leaderboard*/}
           {/*  </h1>*/}
           {/*</Link>*/}
-          {/*<Link href='/submit'>*/}
-          {/*  <h1 className={styles.title}>*/}
-          {/*    Submit <br /> Record*/}
-          {/*  </h1>*/}
-          {/*</Link>*/}
+          <Link href='/submit'>
+            <h1 className={styles.title}>
+              Submit <br /> Record
+            </h1>
+          </Link>
         </div>
       </main>
     </div>

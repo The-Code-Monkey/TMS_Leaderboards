@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 import Table from './table';
-import Provider from './provider'
+import Provider from '@/app/provider'
 import {PageProps} from "@/app/utils";
 import supabase from "@/app/supabase";
 
@@ -36,8 +36,6 @@ const Page = async ({ params }: PageProps) => {
     }
     return 0;
   });
-
-  console.log(sortedData);
 
   return (
 <Provider>
