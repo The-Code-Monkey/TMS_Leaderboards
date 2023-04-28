@@ -11,12 +11,13 @@ type RecordType = {
   ats: number;
   skips: number;
   time?: string;
+  validated: boolean;
 }
 
 export const revalidate = 60;
 
 const getData = async (table: string): Promise<Array<RecordType>> => {
-  const { data } = await supabase.from(table).select('*');
+  const { data } = await supabase.from(table).select('*').eq('validated', true);
 
   return data as unknown as Promise<Array<RecordType>>;
 }

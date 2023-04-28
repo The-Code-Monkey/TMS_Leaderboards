@@ -11,7 +11,7 @@ import Link from 'next/link'
 
 interface Props {
   board: string;
-  data: Array<Record<string, number | string>>
+  data: Array<Record<string, number | string | boolean>>
 }
 
 const Table = ({ board, data }: Props) => {
