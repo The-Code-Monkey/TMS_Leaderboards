@@ -13,6 +13,8 @@ type RecordType = {
   time?: string;
 }
 
+export const revalidate = 60;
+
 const getData = async (table: string): Promise<Array<RecordType>> => {
   const { data } = await supabase.from(table).select('*');
 
