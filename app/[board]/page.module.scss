@@ -18,6 +18,11 @@
     th {
       color: #fff;
     }
+    thead {
+      position: sticky;
+      background-color: #171414;
+      top: 0;
+    }
 
     tbody {
       tr {

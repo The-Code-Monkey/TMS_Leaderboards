@@ -25,14 +25,15 @@ const Table = ({ board, data }: Props) => {
             <TableCell align="center">TM Name</TableCell>
             <TableCell>Link</TableCell>
             <TableCell align="right">ATs</TableCell>
-            <TableCell align="right">Skips</TableCell>
+            {board === 'rmc' && <TableCell align="right">Golds</TableCell>}
+            {board === 'rms' && <TableCell align="right">Skips</TableCell>}
             {board === 'rms' && <TableCell align="right">Survived Time</TableCell>}
           </TableRow>
         </TableHead>
         <TableBody>
           {data.map((row, index) => (
             <TableRow
-              key={row.date}
+              key={row.date as string}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell component="th" scope="row">
@@ -42,7 +43,8 @@ const Table = ({ board, data }: Props) => {
               <TableCell align="center">{row.name}</TableCell>
               <TableCell><Link href={row.link as string} target={'_blank'}>{row.link}</Link></TableCell>
               <TableCell align="right">{row.ats}</TableCell>
-              <TableCell align="right">{row.skips}</TableCell>
+              {board === 'rmc' && <TableCell align="right">{row.golds}</TableCell>}
+              {board === 'rms' && <TableCell align="right">{row.skips}</TableCell>}
               {board === 'rms' && <TableCell align="right">{row.time}</TableCell>}
             </TableRow>
           ))}
