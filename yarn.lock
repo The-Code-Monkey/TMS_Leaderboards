@@ -1578,9 +1578,9 @@
     cross-fetch "^3.1.5"
 
 "@supabase/supabase-js@^2.21.0":
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.27.0.tgz#2c07e808dd04480f76adcdd5011e383f5bd66a19"
-  integrity sha512-XGDBcjmOqa4z9RtY6wJtAArCdD4yPV38dUQdEddenZE8fwubIBnEu4IOHElrWI64rxWIhhEG9HXNQrmSQhutdA==
+  version "2.28.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.28.0.tgz#81ead317b298cac070039c4afa3a7bc9445a8f0c"
+  integrity sha512-XgY5U5DvCGkWhg2eNHz36Oxj/s1RbVW+stCu9klzWwZwLndE10B2d2Svdcy+nSHLbZBYR2jZF5Zn0KHi+0dlqw==
   dependencies:
     "@supabase/functions-js" "^2.1.0"
     "@supabase/gotrue-js" "^2.45.0"
