@@ -1547,10 +1547,10 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@supabase/gotrue-js@2.43.1":
-  version "2.43.1"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.43.1.tgz#4623791433f0b7ef4c17f0d880fba1f0307b4c81"
-  integrity sha512-HVjjElEPbM5sDoK1pXry/H181X7A1a9G9O68PZwN276y/EUwWOw3pA8KKKSRTaTSiK+41BPC8HUfsfbe7470RQ==
+"@supabase/gotrue-js@^2.46.1":
+  version "2.46.1"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.46.1.tgz#c4ac5056a02498db6d9edccab4e4d6db4fe7e3e1"
+  integrity sha512-tebFX3XvPqEJKHOVgkXTN20g9iUhLx6tebIYQvTggYTrqOT2af8oTpSBdgYzbwJ291G6P6CSpR6KY0cT9ade5A==
   dependencies:
     cross-fetch "^3.1.5"
 
@@ -1578,12 +1578,12 @@
     cross-fetch "^3.1.5"
 
 "@supabase/supabase-js@^2.21.0":
-  version "2.29.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.29.0.tgz#7bc9983188d01f37cf53e2afcf1a1ad14a772129"
-  integrity sha512-Lb/7sxsTLAzYl6Op1CL+hH+9NC3FUAj1FfgUUbCBysJlAF39/kbdrimq/JMFOAnN1/cqpkR3rR/1WmU9ARS29g==
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.31.0.tgz#49fe09652fa72b1173efe4ac086592e31c662cef"
+  integrity sha512-W9/4s+KnSUX67wJKBn/3yLq+ieycnMzVjK3nNTLX5Wko3ypNT/081l2iFYrf+nsLQ1CiT4mA92I3dxCy6CmxTg==
   dependencies:
     "@supabase/functions-js" "^2.1.0"
-    "@supabase/gotrue-js" "2.43.1"
+    "@supabase/gotrue-js" "^2.46.1"
     "@supabase/postgrest-js" "^1.7.0"
     "@supabase/realtime-js" "^2.7.3"
     "@supabase/storage-js" "^2.5.1"
@@ -1602,9 +1602,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "20.4.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.4.tgz#c79c7cc22c9d0e97a7944954c9e663bcbd92b0cb"
-  integrity sha512-CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==
+  version "20.4.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.4.5.tgz#9dc0a5cb1ccce4f7a731660935ab70b9c00a5d69"
+  integrity sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg==
 
 "@types/node@18.17.1":
   version "18.17.1"
