@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
-            ["@types/node", "npm:18.17.9"],\
+            ["@types/node", "npm:18.17.11"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["encoding", "npm:0.1.13"],\
@@ -3626,10 +3626,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.17.9", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.17.9-e314483663-0d5835710e.zip/node_modules/@types/node/",\
+        ["npm:18.17.11", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.17.11-a3c0804a82-c31d9f4a6f.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.17.9"]\
+            ["@types/node", "npm:18.17.11"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -8546,7 +8546,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
-            ["@types/node", "npm:18.17.9"],\
+            ["@types/node", "npm:18.17.11"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["encoding", "npm:0.1.13"],\
