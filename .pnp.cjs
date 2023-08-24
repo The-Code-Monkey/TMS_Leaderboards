@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
-            ["@supabase/supabase-js", "npm:2.21.0"],\
+            ["@supabase/supabase-js", "npm:2.33.1"],\
             ["@types/node", "npm:18.17.11"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
@@ -3486,7 +3486,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
             ["@supabase/auth-helpers-shared", "virtual:5b2468682f4015175871ce69a22c841bef09b4764cc0d82b58a95e5428572d7dbee4ea44b8390a11df04fc73caf10ea876416f836261c879466c3718f3af06e4#npm:0.4.1"],\
-            ["@supabase/supabase-js", "npm:2.21.0"],\
+            ["@supabase/supabase-js", "npm:2.33.1"],\
             ["@types/supabase__supabase-js", null],\
             ["set-cookie-parser", "npm:2.6.0"]\
           ],\
@@ -3509,7 +3509,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/@supabase-auth-helpers-shared-virtual-b2662f190d/0/cache/@supabase-auth-helpers-shared-npm-0.4.1-0f0bef96a5-07e29f1212.zip/node_modules/@supabase/auth-helpers-shared/",\
           "packageDependencies": [\
             ["@supabase/auth-helpers-shared", "virtual:5b2468682f4015175871ce69a22c841bef09b4764cc0d82b58a95e5428572d7dbee4ea44b8390a11df04fc73caf10ea876416f836261c879466c3718f3af06e4#npm:0.4.1"],\
-            ["@supabase/supabase-js", "npm:2.21.0"],\
+            ["@supabase/supabase-js", "npm:2.33.1"],\
             ["@types/supabase__supabase-js", null],\
             ["jose", "npm:4.14.4"]\
           ],\
@@ -3583,10 +3583,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@supabase/supabase-js", [\
-        ["npm:2.21.0", {\
-          "packageLocation": "./.yarn/cache/@supabase-supabase-js-npm-2.21.0-89b31fb1ce-806beaf543.zip/node_modules/@supabase/supabase-js/",\
+        ["npm:2.33.1", {\
+          "packageLocation": "./.yarn/cache/@supabase-supabase-js-npm-2.33.1-4526356831-dcfdcc344f.zip/node_modules/@supabase/supabase-js/",\
           "packageDependencies": [\
-            ["@supabase/supabase-js", "npm:2.21.0"],\
+            ["@supabase/supabase-js", "npm:2.33.1"],\
             ["@supabase/functions-js", "npm:2.1.3"],\
             ["@supabase/gotrue-js", "npm:2.48.0"],\
             ["@supabase/postgrest-js", "npm:1.8.3"],\
@@ -8545,7 +8545,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
-            ["@supabase/supabase-js", "npm:2.21.0"],\
+            ["@supabase/supabase-js", "npm:2.33.1"],\
             ["@types/node", "npm:18.17.11"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
