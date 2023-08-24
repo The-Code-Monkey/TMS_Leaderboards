@@ -9,6 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "prConcurrentLimit": 1,
   "automergeStrategy": "squash",
   "automerge": true,
   "labels": ["dependencies"],
