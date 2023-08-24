@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fontsource/roboto", "npm:5.0.8"],\
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
-            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
+            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
             ["@types/node", "npm:18.17.9"],\
             ["@types/react", "npm:18.2.21"],\
@@ -3474,18 +3474,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@supabase/auth-helpers-nextjs", [\
-        ["npm:0.7.0", {\
-          "packageLocation": "./.yarn/cache/@supabase-auth-helpers-nextjs-npm-0.7.0-330e5e3ec5-1f1f0f0ab9.zip/node_modules/@supabase/auth-helpers-nextjs/",\
+        ["npm:0.7.4", {\
+          "packageLocation": "./.yarn/cache/@supabase-auth-helpers-nextjs-npm-0.7.4-0ac5a4c35b-eaf9ff6b42.zip/node_modules/@supabase/auth-helpers-nextjs/",\
           "packageDependencies": [\
-            ["@supabase/auth-helpers-nextjs", "npm:0.7.0"]\
+            ["@supabase/auth-helpers-nextjs", "npm:0.7.4"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0", {\
-          "packageLocation": "./.yarn/__virtual__/@supabase-auth-helpers-nextjs-virtual-7426f93480/0/cache/@supabase-auth-helpers-nextjs-npm-0.7.0-330e5e3ec5-1f1f0f0ab9.zip/node_modules/@supabase/auth-helpers-nextjs/",\
+        ["virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4", {\
+          "packageLocation": "./.yarn/__virtual__/@supabase-auth-helpers-nextjs-virtual-5b2468682f/0/cache/@supabase-auth-helpers-nextjs-npm-0.7.4-0ac5a4c35b-eaf9ff6b42.zip/node_modules/@supabase/auth-helpers-nextjs/",\
           "packageDependencies": [\
-            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
-            ["@supabase/auth-helpers-shared", "virtual:7426f93480ac0e36c88dc2a12bb609cf0dbc83e0f02a485f8cefb574a554a133890c659ec8032a7a86187c9da285c6e068b1364253bf3debd8bd4817a7f53d29#npm:0.4.0"],\
+            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
+            ["@supabase/auth-helpers-shared", "virtual:5b2468682f4015175871ce69a22c841bef09b4764cc0d82b58a95e5428572d7dbee4ea44b8390a11df04fc73caf10ea876416f836261c879466c3718f3af06e4#npm:0.4.1"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
             ["@types/supabase__supabase-js", null],\
             ["set-cookie-parser", "npm:2.6.0"]\
@@ -3498,17 +3498,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@supabase/auth-helpers-shared", [\
-        ["npm:0.4.0", {\
-          "packageLocation": "./.yarn/cache/@supabase-auth-helpers-shared-npm-0.4.0-d08166c85e-c277287f74.zip/node_modules/@supabase/auth-helpers-shared/",\
+        ["npm:0.4.1", {\
+          "packageLocation": "./.yarn/cache/@supabase-auth-helpers-shared-npm-0.4.1-0f0bef96a5-07e29f1212.zip/node_modules/@supabase/auth-helpers-shared/",\
           "packageDependencies": [\
-            ["@supabase/auth-helpers-shared", "npm:0.4.0"]\
+            ["@supabase/auth-helpers-shared", "npm:0.4.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7426f93480ac0e36c88dc2a12bb609cf0dbc83e0f02a485f8cefb574a554a133890c659ec8032a7a86187c9da285c6e068b1364253bf3debd8bd4817a7f53d29#npm:0.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/@supabase-auth-helpers-shared-virtual-68ddacd1ab/0/cache/@supabase-auth-helpers-shared-npm-0.4.0-d08166c85e-c277287f74.zip/node_modules/@supabase/auth-helpers-shared/",\
+        ["virtual:5b2468682f4015175871ce69a22c841bef09b4764cc0d82b58a95e5428572d7dbee4ea44b8390a11df04fc73caf10ea876416f836261c879466c3718f3af06e4#npm:0.4.1", {\
+          "packageLocation": "./.yarn/__virtual__/@supabase-auth-helpers-shared-virtual-b2662f190d/0/cache/@supabase-auth-helpers-shared-npm-0.4.1-0f0bef96a5-07e29f1212.zip/node_modules/@supabase/auth-helpers-shared/",\
           "packageDependencies": [\
-            ["@supabase/auth-helpers-shared", "virtual:7426f93480ac0e36c88dc2a12bb609cf0dbc83e0f02a485f8cefb574a554a133890c659ec8032a7a86187c9da285c6e068b1364253bf3debd8bd4817a7f53d29#npm:0.4.0"],\
+            ["@supabase/auth-helpers-shared", "virtual:5b2468682f4015175871ce69a22c841bef09b4764cc0d82b58a95e5428572d7dbee4ea44b8390a11df04fc73caf10ea876416f836261c879466c3718f3af06e4#npm:0.4.1"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
             ["@types/supabase__supabase-js", null],\
             ["jose", "npm:4.14.4"]\
@@ -8544,7 +8544,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@fontsource/roboto", "npm:5.0.8"],\
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
-            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
+            ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.4"],\
             ["@supabase/supabase-js", "npm:2.21.0"],\
             ["@types/node", "npm:18.17.9"],\
             ["@types/react", "npm:18.2.21"],\
