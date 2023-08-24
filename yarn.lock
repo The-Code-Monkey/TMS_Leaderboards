@@ -6265,9 +6265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:6.0.0":
-  version: 6.0.0
-  resolution: "styled-components@npm:6.0.0"
+"styled-components@npm:6.0.7":
+  version: 6.0.7
+  resolution: "styled-components@npm:6.0.7"
   dependencies:
     "@babel/cli": ^7.21.0
     "@babel/core": ^7.21.0
@@ -6295,7 +6295,7 @@ __metadata:
   peerDependenciesMeta:
     babel-plugin-styled-components:
       optional: true
-  checksum: 9973ffe185cca1af652ae82bccf44fb0b2164d9df7180af038dc89f497d2518b742d66bffdee27d83dc0c73cbf45f948129666ed0f0bb3619707d4cbab439b39
+  checksum: 38645f38f145225e456f8f9303f5be1d988180e0e3d84d1f3e1d14fb006c7deb69704745e266d61016616a154938697d011a0bff6eaeb7dd25dbba659e2411f7
   languageName: node
   linkType: hard
 
@@ -6423,7 +6423,7 @@ __metadata:
     react: 18.2.0
     react-dom: 18.2.0
     sass: 1.62.1
-    styled-components: 6.0.0
+    styled-components: 6.0.7
     typescript: 5.2.2
   languageName: unknown
   linkType: soft
