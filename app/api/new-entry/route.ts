@@ -1,5 +1,3 @@
-import PlayerModel from "@/app/api/new-entry/PlayerModel";
-
 export async function POST(request: Request) {
     const body = await request.json();
     const requiredBodyParams = ["token", "accountId", "displayName", "pluginVersion"];
