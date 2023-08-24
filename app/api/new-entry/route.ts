@@ -8,7 +8,7 @@ export async function POST(request: Request) {
 
     let parsedBody = new URLSearchParams();
     parsedBody.set('token', body.token);
-    parsedBody.set('secret', process.env.SECRET);
+    parsedBody.set('secret', process.env.SECRET!);
 
     const result = await fetch(process.env.BASE_URL + "/auth/validate", {
         method: "POST",
