@@ -1683,10 +1683,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/roboto@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@fontsource/roboto@npm:5.0.0"
-  checksum: 381e8d6be2348295e11614942e6ec6618220463f863a27f3202ca8ee869c134b5e61a302ceee74f6349a8a25ad658420f16fd388a673ad2f31a78366d4e63ae6
+"@fontsource/roboto@npm:5.0.8":
+  version: 5.0.8
+  resolution: "@fontsource/roboto@npm:5.0.8"
+  checksum: 8aa9c1557ea9489db0eb47f849094e53b644e9d7f60008c7d514481d00ff132726da67f350b63c76943ace6a49ac4de5983b9f92acb05c55b622b4ab4a2a19c6
   languageName: node
   linkType: hard
 
@@ -6405,7 +6405,7 @@ __metadata:
   dependencies:
     "@emotion/react": 11.10.8
     "@emotion/styled": 11.10.8
-    "@fontsource/roboto": 5.0.0
+    "@fontsource/roboto": 5.0.8
     "@mui/material": 5.12.2
     "@mui/styled-engine-sc": 5.12.0
     "@supabase/auth-helpers-nextjs": 0.7.0

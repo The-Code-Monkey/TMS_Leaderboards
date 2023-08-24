@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:11.10.8"],\
             ["@emotion/styled", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:11.10.8"],\
-            ["@fontsource/roboto", "npm:5.0.0"],\
+            ["@fontsource/roboto", "npm:5.0.8"],\
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
@@ -2912,10 +2912,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@fontsource/roboto", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/@fontsource-roboto-npm-5.0.0-856d5b1daa-381e8d6be2.zip/node_modules/@fontsource/roboto/",\
+        ["npm:5.0.8", {\
+          "packageLocation": "./.yarn/cache/@fontsource-roboto-npm-5.0.8-35f6bafae2-8aa9c1557e.zip/node_modules/@fontsource/roboto/",\
           "packageDependencies": [\
-            ["@fontsource/roboto", "npm:5.0.0"]\
+            ["@fontsource/roboto", "npm:5.0.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8541,7 +8541,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tm2020_rmc_leaderboard", "workspace:."],\
             ["@emotion/react", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:11.10.8"],\
             ["@emotion/styled", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:11.10.8"],\
-            ["@fontsource/roboto", "npm:5.0.0"],\
+            ["@fontsource/roboto", "npm:5.0.8"],\
             ["@mui/material", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.2"],\
             ["@mui/styled-engine-sc", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:5.12.0"],\
             ["@supabase/auth-helpers-nextjs", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:0.7.0"],\
