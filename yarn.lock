@@ -2100,26 +2100,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/auth-helpers-nextjs@npm:0.7.0":
-  version: 0.7.0
-  resolution: "@supabase/auth-helpers-nextjs@npm:0.7.0"
+"@supabase/auth-helpers-nextjs@npm:0.7.4":
+  version: 0.7.4
+  resolution: "@supabase/auth-helpers-nextjs@npm:0.7.4"
   dependencies:
-    "@supabase/auth-helpers-shared": 0.4.0
+    "@supabase/auth-helpers-shared": 0.4.1
     set-cookie-parser: ^2.6.0
   peerDependencies:
     "@supabase/supabase-js": ^2.19.0
-  checksum: 1f1f0f0ab9afb818e68aca3aa54580e6ce07e3f9985c28a190e351f31585394c46d578cc4b5c164fdf73a8684e855fb78b7f5941f15c08f98cfd262d7ece1022
+  checksum: eaf9ff6b4259fc21bd5204c9862068c86d30636fc1f5ab9cc1baa989762402eb84bd2dc0ba3e5350e14a71d4e527867e3f003de6681ed606bb27bf863bea12c9
   languageName: node
   linkType: hard
 
-"@supabase/auth-helpers-shared@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@supabase/auth-helpers-shared@npm:0.4.0"
+"@supabase/auth-helpers-shared@npm:0.4.1":
+  version: 0.4.1
+  resolution: "@supabase/auth-helpers-shared@npm:0.4.1"
   dependencies:
     jose: ^4.14.3
   peerDependencies:
     "@supabase/supabase-js": ^2.19.0
-  checksum: c277287f74c3f5f4b15b02df02bffedb2ffb366d578688584119fe40646296b58ad9e9dac3539b8d187bb39d735714d8d13afa7e7a42c1131d1fe397f38ee8a8
+  checksum: 07e29f12127b297bb3a11ca5d411ca20c3944a6cadda0d3266ff59bffd85d676116447f70de34116e1773fac0229fd8e944865597d8c044c8f979fa26db4d9f9
   languageName: node
   linkType: hard
 
@@ -6408,7 +6408,7 @@ __metadata:
     "@fontsource/roboto": 5.0.0
     "@mui/material": 5.12.2
     "@mui/styled-engine-sc": 5.12.0
-    "@supabase/auth-helpers-nextjs": 0.7.0
+    "@supabase/auth-helpers-nextjs": 0.7.4
     "@supabase/supabase-js": 2.21.0
     "@types/node": 18.17.9
     "@types/react": 18.2.21
