@@ -1,7 +1,19 @@
+'use client'
+
 import Link from 'next/link'
 import styles from './page.module.scss'
 
 export default function Home() {
+  fetch('/api/new-entry', {
+    method: "POST",
+    body: JSON.stringify({
+      token: "SDASdsadasgduasgduysatd67d3y2",
+      accountId: 1,
+      displayName: "Test",
+      pluginVersion: "1.1.1"
+    })
+  })
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
