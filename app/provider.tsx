@@ -15,7 +15,7 @@ const Provider = ({ children }: any) => {
       <CssBaseline />
       {children}
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default Provider;

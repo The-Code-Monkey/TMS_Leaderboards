@@ -7,11 +7,11 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import Link from 'next/link'
+import Link from 'next/link';
 
 interface Props {
   board: string;
-  data: Array<Record<string, number | string | boolean>>
+  data: Array<Record<string, number | string | boolean>>;
 }
 
 const Table = ({ board, data }: Props) => {
@@ -27,7 +27,9 @@ const Table = ({ board, data }: Props) => {
             <TableCell align="right">ATs</TableCell>
             {board === 'rmc' && <TableCell align="right">Golds</TableCell>}
             {board === 'rms' && <TableCell align="right">Skips</TableCell>}
-            {board === 'rms' && <TableCell align="right">Survived Time</TableCell>}
+            {board === 'rms' && (
+              <TableCell align="right">Survived Time</TableCell>
+            )}
           </TableRow>
         </TableHead>
         <TableBody>
@@ -41,17 +43,27 @@ const Table = ({ board, data }: Props) => {
               </TableCell>
               <TableCell align="center">{row.date}</TableCell>
               <TableCell align="center">{row.name}</TableCell>
-              <TableCell><Link href={row.link as string} target={'_blank'}>{row.link}</Link></TableCell>
+              <TableCell>
+                <Link href={row.link as string} target={'_blank'}>
+                  {row.link}
+                </Link>
+              </TableCell>
               <TableCell align="right">{row.ats}</TableCell>
-              {board === 'rmc' && <TableCell align="right">{row.golds}</TableCell>}
-              {board === 'rms' && <TableCell align="right">{row.skips}</TableCell>}
-              {board === 'rms' && <TableCell align="right">{row.time}</TableCell>}
+              {board === 'rmc' && (
+                <TableCell align="right">{row.golds}</TableCell>
+              )}
+              {board === 'rms' && (
+                <TableCell align="right">{row.skips}</TableCell>
+              )}
+              {board === 'rms' && (
+                <TableCell align="right">{row.time}</TableCell>
+              )}
             </TableRow>
           ))}
         </TableBody>
       </MuiTable>
     </TableContainer>
-  )
-}
+  );
+};
 
 export default Table;
