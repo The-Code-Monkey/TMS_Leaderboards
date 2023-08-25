@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:18.2.0"],\
-            ["sass", "npm:1.62.1"],\
+            ["sass", "npm:1.66.1"],\
             ["styled-components", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:6.0.7"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
@@ -7156,7 +7156,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.14"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:18.2.0"],\
-            ["sass", "npm:1.62.1"],\
+            ["sass", "npm:1.66.1"],\
             ["styled-jsx", "virtual:f4182f1c95628cefef73ce06e6fd877e2505f75ca09f23322259816c7db3d469872e75a8b99cf81af18b480687713ecab59af975443a1b8253f5534e71bf0841#npm:5.1.1"],\
             ["watchpack", "npm:2.4.0"],\
             ["zod", "npm:3.21.4"]\
@@ -8017,10 +8017,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.62.1", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.62.1-c16d65fd28-1b1b3584b3.zip/node_modules/sass/",\
+        ["npm:1.66.1", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.66.1-563acb4a8f-74fc11d0fc.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.62.1"],\
+            ["sass", "npm:1.66.1"],\
             ["chokidar", "npm:3.5.3"],\
             ["immutable", "npm:4.3.3"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -8558,7 +8558,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:18.2.0"],\
-            ["sass", "npm:1.62.1"],\
+            ["sass", "npm:1.66.1"],\
             ["styled-components", "virtual:87ee05f6f0764168b2ee8cd957ccd0e05a8bb6190e0920ee1f630746816116e0d4eef477b96a37c2b084aa5408ddd55109870998eca78bdd5092a64dae2dace7#npm:6.0.7"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
