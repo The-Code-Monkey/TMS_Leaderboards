@@ -2,6 +2,19 @@ import Link from 'next/link';
 import styles from './page.module.scss';
 
 export default async function Home() {
+  // const res = await fetch(process.env.URL + "/api/new-entry", {
+  //   method: "POST",
+  //   body: JSON.stringify({
+  //     token: "dsajdghasdyas",
+  //     accountId: 211111,
+  //     displayName: "Test Name",
+  //     pluginVersion: "1.0.0"
+  //   }),
+  //   cache: 'no-store',
+  // });
+
+  // console.log("HERE", await res.json());
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>
