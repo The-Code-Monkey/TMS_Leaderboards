@@ -1,16 +1,16 @@
 import supabase from '@/app/supabase';
 
 class PlayerModel {
-  #id;
-  #accountId;
-  #displayName;
-  #lastLogin;
-  #lastPluginVersion;
-  #lastToken;
-  #lastIpAddress;
+  #id: number;
+  #accountId: number;
+  #displayName: string;
+  #lastLogin: string;
+  #lastPluginVersion: string;
+  #lastToken: string;
+  #lastIpAddress: string;
   #exists = false;
 
-  #db_access_token;
+  #db_access_token: string;
 
   get getId() {
     return this.#id;
