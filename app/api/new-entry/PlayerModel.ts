@@ -37,7 +37,7 @@ class PlayerModel {
     this.#displayName = value;
   }
 
-  get getPlayerByAccountId() {
+  get getPlayerByAccountId(): Promise<PlayerModel> {
     return new Promise(async (resolve) => {
       const { data } = await supabase
         .from('players')
@@ -56,7 +56,7 @@ class PlayerModel {
         this.#exists = true;
       }
 
-      return resolve(this);
+      resolve(this);
     });
   }
 
@@ -81,7 +81,7 @@ class PlayerModel {
         this.#lastIpAddress = data.lastIpAddress;
         this.#exists = true;
       }
-      return resolve(this);
+      resolve(this);
     });
   }
 
