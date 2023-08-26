@@ -2,6 +2,27 @@ import Link from 'next/link';
 import styles from './page.module.scss';
 
 export default async function Home() {
+  // const res = await fetch(process.env.URL + '/api/new-entry', {
+  //   method: 'POST',
+  //   body: JSON.stringify({
+  //     token: 'dsajdghasdyas',
+  //     accountId: 'da4642f9-6acf-43fe-88b6-b120ff1308ba',
+  //     displayName: 'Scrapie98',
+  //     pluginVersion: '1.0.0',
+  //     gameMode: 'rmc',
+  //     runData: {
+  //       ats: 1,
+  //       golds: 1,
+  //     },
+  //   }),
+  //   cache: 'no-store',
+  // });
+  //
+  // if (res.status === 400) console.error(await res.text());
+  // else console.log('STATUS:', res.status);
+
+  // console.log("HERE", await res.json());
+
   return (
     <div className={styles.container}>
       <main className={styles.main}>

@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 
 class PlayerModel {
   #id?: number;
-  #accountId?: number;
+  #accountId?: string;
   #displayName?: string;
   #lastLogin?: string;
   #lastPluginVersion?: string;
@@ -27,7 +27,7 @@ class PlayerModel {
     return this.#accountId;
   }
 
-  set setAccountId(value: number) {
+  set setAccountId(value: string) {
     this.#accountId = value;
   }
 
@@ -63,11 +63,13 @@ class PlayerModel {
   }
 
   setPlayerInDB = async (player: Record<string, string>) => {
-    const { data } = await supabase
+    const { data, error } = await supabase
       .from('players')
       .insert(player)
       .select('*')
       .single();
+
+    console.log("HERE",error)
 
     if (data) {
       this.#id = data.id;

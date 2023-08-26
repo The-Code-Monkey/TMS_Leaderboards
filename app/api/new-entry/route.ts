@@ -27,15 +27,6 @@ export async function POST(request: Request) {
       return new Response(`Missing body parameter: ${param}`, { status: 400 });
   }
 
-  // await Promise.all(requiredBodyParams.foreach(async (param) => {
-  //   new Promise((resolve, reject) => {
-  //     if (!body[param]){
-  //       return new Response(`Missing body parameter: ${param}`, { status: 404 });
-  //     }
-  //     resolve(param);
-  //   })
-  // }));
-
   let opJson;
 
   let parsedBody = new URLSearchParams();
