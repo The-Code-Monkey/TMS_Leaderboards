@@ -89,7 +89,7 @@ class PlayerModel {
     return this.#exists;
   }
 
-  get login() {
+  get login(): Promise<PlayerModel> {
     return new Promise(async (resolve) => {
       const result = await supabase.auth.signInWithPassword({
         email: process.env.EMAIL,
