@@ -69,7 +69,7 @@ class PlayerModel {
       .select('*')
       .single();
 
-    console.log("HERE",error)
+    console.log('HERE', error);
 
     if (data) {
       this.#id = data.id;
