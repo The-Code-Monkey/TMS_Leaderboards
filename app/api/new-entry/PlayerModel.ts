@@ -16,7 +16,7 @@ class PlayerModel {
     return this.#id;
   }
 
-  set setId(value) {
+  set setId(value: number) {
     this.#id = value;
   }
 
@@ -24,7 +24,7 @@ class PlayerModel {
     return this.#accountId;
   }
 
-  set setAccountId(value) {
+  set setAccountId(value: number) {
     this.#accountId = value;
   }
 
@@ -32,7 +32,7 @@ class PlayerModel {
     return this.#displayName;
   }
 
-  set setDisplayName(value) {
+  set setDisplayName(value: string) {
     this.#displayName = value;
   }
 
@@ -59,9 +59,9 @@ class PlayerModel {
     });
   }
 
-  set setPlayerInDB(player) {
-    return new Promise(async (resolve) => {
-      await supabase.auth.setSession({ access_token: this.#db_access_token });
+  set setPlayerInDB(player: Record<string, string>) {
+    new Promise(async (resolve) => {
+      await supabase.auth.setSession({ access_token: this.#db_access_token! });
       const { data } = await supabase
         .from('players')
         .insert(player)
