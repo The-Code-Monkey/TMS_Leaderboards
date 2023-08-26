@@ -95,12 +95,12 @@ export async function POST(request: Request) {
         lastIpAddress: ip,
       });
 
-      console.log(playerRes.getDisplayName)
+      console.log(playerRes.getDisplayName);
     } else {
       console.log('Player Found:', playerRes.getDisplayName);
     }
 
-    const newEntry = await playerRes.setRunInDB(body.gameMode, body.runData)
+    const newEntry = await playerRes.setRunInDB(body.gameMode, body.runData);
 
     // console.log('Found Or Created:', playerRes.getDisplayName);
 

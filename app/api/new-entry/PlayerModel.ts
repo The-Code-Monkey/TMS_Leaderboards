@@ -1,6 +1,6 @@
 import supabase from '@/app/supabase';
-import {run} from "node:test";
-import {NextResponse} from "next/server";
+import { run } from 'node:test';
+import { NextResponse } from 'next/server';
 
 class PlayerModel {
   #id?: number;
@@ -82,21 +82,32 @@ class PlayerModel {
     return this;
   };
 
-  setRunInDB = async (gameMode: "rmc" | "rms", runData: Record<string, string>) => {
+  setRunInDB = async (
+    gameMode: 'rmc' | 'rms',
+    runData: Record<string, string>
+  ) => {
     const data = {
       ...runData,
       player_id: this.#id,
-    }
+    };
 
-    const { data: result, error } = await supabase.from(gameMode).insert(data).select("*").single();
+    const { data: result, error } = await supabase
+      .from(gameMode)
+      .insert(data)
+      .select('*')
+      .single();
 
-    if (error) return NextResponse.json({
-      message: "Error something went wrong adding to db",
-      data
-    }, { status: 400 });
+    if (error)
+      return NextResponse.json(
+        {
+          message: 'Error something went wrong adding to db',
+          data,
+        },
+        { status: 400 }
+      );
 
     return result;
-  }
+  };
 
   get exists(): boolean {
     return this.#exists;
