@@ -96,8 +96,10 @@ class PlayerModel {
         password: process.env.PASSWORD,
       });
 
-      this.#db_access_token = result.data.session.access_token;
-      this.#db_refresh_token = result.data.session.refresh_token;
+      if (result.data.session) {
+        this.#db_access_token = result.data.session.access_token;
+        this.#db_refresh_token = result.data.session.refresh_token;
+      }
 
       resolve(this);
     });
