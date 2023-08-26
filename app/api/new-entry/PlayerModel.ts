@@ -1,4 +1,6 @@
 import supabase from '@/app/supabase';
+import {run} from "node:test";
+import {NextResponse} from "next/server";
 
 class PlayerModel {
   #id?: number;
@@ -60,29 +62,40 @@ class PlayerModel {
     });
   }
 
-  set setPlayerInDB(player: Record<string, string>) {
-    new Promise(async (resolve) => {
-      await supabase.auth.setSession({
-        access_token: this.#db_access_token!,
-        refresh_token: this.#db_refresh_token!,
-      });
-      const { data } = await supabase
-        .from('players')
-        .insert(player)
-        .select('*')
-        .single();
+  setPlayerInDB = async (player: Record<string, string>) => {
+    const { data } = await supabase
+      .from('players')
+      .insert(player)
+      .select('*')
+      .single();
 
-      if (data) {
-        this.#id = data.id;
-        this.#displayName = data.displayName;
-        this.#lastLogin = data.lastLogin;
-        this.#lastPluginVersion = data.lastPluginVersion;
-        this.#lastToken = data.lastToken;
-        this.#lastIpAddress = data.lastIpAddress;
-        this.#exists = true;
-      }
-      resolve(this);
-    });
+    if (data) {
+      this.#id = data.id;
+      this.#displayName = data.displayName;
+      this.#lastLogin = data.lastLogin;
+      this.#lastPluginVersion = data.lastPluginVersion;
+      this.#lastToken = data.lastToken;
+      this.#lastIpAddress = data.lastIpAddress;
+      this.#exists = true;
+    }
+
+    return this;
+  };
+
+  setRunInDB = async (gameMode: "rmc" | "rms", runData: Record<string, string>) => {
+    const data = {
+      ...runData,
+      player_id: this.#id,
+    }
+
+    const { data: result, error } = await supabase.from(gameMode).insert(data).select("*").single();
+
+    if (error) return NextResponse.json({
+      message: "Error something went wrong adding to db",
+      data
+    }, { status: 400 });
+
+    return result;
   }
 
   get exists(): boolean {
@@ -99,6 +112,11 @@ class PlayerModel {
       if (result.data.session) {
         this.#db_access_token = result.data.session.access_token;
         this.#db_refresh_token = result.data.session.refresh_token;
+
+        await supabase.auth.setSession({
+          access_token: this.#db_access_token!,
+          refresh_token: this.#db_refresh_token!,
+        });
       }
 
       resolve(this);

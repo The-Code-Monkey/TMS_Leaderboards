@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
 import PlayerModel from './PlayerModel';
 
-const revalidate = 1;
-
 export async function POST(request: Request) {
   let ip = '127.0.0.1';
 
@@ -12,11 +10,32 @@ export async function POST(request: Request) {
     'accountId',
     'displayName',
     'pluginVersion',
+    'gameMode',
+    'runData',
   ];
-  requiredBodyParams.forEach((param) => {
-    if (!body[param])
-      return new Response(`Missing body parameter: ${param}`, { status: 404 });
-  });
+
+  for (const param of requiredBodyParams) {
+    const result = await new Promise((resolve) => {
+      if (!body[param]) {
+        resolve(param);
+      } else {
+        resolve('OK');
+      }
+    });
+
+    if (result !== 'OK')
+      return new Response(`Missing body parameter: ${param}`, { status: 400 });
+  }
+
+  // await Promise.all(requiredBodyParams.foreach(async (param) => {
+  //   new Promise((resolve, reject) => {
+  //     if (!body[param]){
+  //       return new Response(`Missing body parameter: ${param}`, { status: 404 });
+  //     }
+  //     resolve(param);
+  //   })
+  // }));
+
   let opJson;
 
   let parsedBody = new URLSearchParams();
@@ -64,7 +83,7 @@ export async function POST(request: Request) {
 
     if (!playerRes.exists) {
       console.log('Player Not Found:', opJson);
-      playerRes.setPlayerInDB = {
+      playerRes = await playerRes.setPlayerInDB({
         accountId: opJson.account_id,
         displayName: opJson.display_name,
         lastLogin: new Date(opJson.token_time * 1000)
@@ -74,18 +93,20 @@ export async function POST(request: Request) {
         lastPluginVersion: body.pluginVersion,
         lastToken: body.token,
         lastIpAddress: ip,
-      };
+      });
+
+      console.log(playerRes.getDisplayName)
     } else {
       console.log('Player Found:', playerRes.getDisplayName);
     }
 
-    setTimeout(() => {
-      console.log('Found Or Created:', playerRes.getDisplayName);
+    const newEntry = await playerRes.setRunInDB(body.gameMode, body.runData)
 
-      return NextResponse.json(
-        { message: 'Record Added Successfully' },
-        { status: 200 }
-      );
-    }, 2000);
+    // console.log('Found Or Created:', playerRes.getDisplayName);
+
+    return NextResponse.json(
+      { message: 'Record Added Successfully', data: newEntry },
+      { status: 200 }
+    );
   }
 }
