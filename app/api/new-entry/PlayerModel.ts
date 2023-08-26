@@ -62,9 +62,9 @@ class PlayerModel {
 
   set setPlayerInDB(player: Record<string, string>) {
     new Promise(async (resolve) => {
-      await supabase.auth.setSession({ 
-        access_token: this.#db_access_token!, 
-        refresh_token: this.#db_refresh_token!
+      await supabase.auth.setSession({
+        access_token: this.#db_access_token!,
+        refresh_token: this.#db_refresh_token!,
       });
       const { data } = await supabase
         .from('players')
@@ -98,7 +98,7 @@ class PlayerModel {
 
       this.#db_access_token = result.data.session.access_token;
       this.#db_refresh_token = result.data.session.refresh_token;
-      
+
       resolve(this);
     });
   }
