@@ -750,15 +750,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/realtime-js@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "@supabase/realtime-js@npm:2.8.1"
+"@supabase/realtime-js@npm:^2.8.4":
+  version: 2.8.4
+  resolution: "@supabase/realtime-js@npm:2.8.4"
   dependencies:
     "@supabase/node-fetch": "npm:^2.6.14"
     "@types/phoenix": "npm:^1.5.4"
     "@types/websocket": "npm:^1.0.3"
     websocket: "npm:^1.0.34"
-  checksum: c02cf6108354a9473aa59eb524a375a8fa6057e7af75b99853b3aacbc7a630a042d4ba93d7e3e5a491c8adce71f3e77e206f7c09b5e0ce416e0158b6c2c1ce09
+  checksum: 2c095e128570e40a0d102a4917f9351ad4c5a5275939c1fe6b930ae6500493ae5b7dccb3e26e95416d5811e3ff337b71ca491c4d335ed3c13a0e3f9bd9925d37
   languageName: node
   linkType: hard
 
@@ -771,17 +771,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/supabase-js@npm:2.38.2":
-  version: 2.38.2
-  resolution: "@supabase/supabase-js@npm:2.38.2"
+"@supabase/supabase-js@npm:2.38.4":
+  version: 2.38.4
+  resolution: "@supabase/supabase-js@npm:2.38.4"
   dependencies:
     "@supabase/functions-js": "npm:^2.1.5"
     "@supabase/gotrue-js": "npm:^2.56.0"
     "@supabase/node-fetch": "npm:^2.6.14"
     "@supabase/postgrest-js": "npm:^1.8.5"
-    "@supabase/realtime-js": "npm:^2.8.1"
+    "@supabase/realtime-js": "npm:^2.8.4"
     "@supabase/storage-js": "npm:^2.5.4"
-  checksum: c1402bbf3afe2528a273fd17aaeafc842a37c0818afa54d675393bf506d435780f653e9b6e9d0513dc130df9ae3e7f6b6f191ca804a91d2ba327abe3fc24b1ea
+  checksum: b13283cfe90dcc4ad71f353302430000eab20a61d8029f181cc4601e2cdbf8eeffffa73697c15dd9bebff41cb0af2d7c0dac931647ac3fbe9eb120cb19e0e492
   languageName: node
   linkType: hard
 
@@ -4730,7 +4730,7 @@ __metadata:
     "@mui/material": "npm:5.14.15"
     "@mui/styled-engine-sc": "npm:5.14.12"
     "@supabase/auth-helpers-nextjs": "npm:0.8.2"
-    "@supabase/supabase-js": "npm:2.38.2"
+    "@supabase/supabase-js": "npm:2.38.4"
     "@types/node": "npm:20.8.9"
     "@types/react": "npm:18.2.31"
     "@types/react-dom": "npm:18.2.14"
