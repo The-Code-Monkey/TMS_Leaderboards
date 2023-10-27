@@ -15,7 +15,7 @@
     "@mui/material": "5.14.15",
     "@mui/styled-engine-sc": "5.14.12",
     "@supabase/auth-helpers-nextjs": "0.8.2",
-    "@supabase/supabase-js": "2.38.2",
+    "@supabase/supabase-js": "2.38.4",
     "@types/node": "20.8.9",
     "@types/react": "18.2.31",
     "@types/react-dom": "18.2.14",
