@@ -771,9 +771,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/supabase-js@npm:2.38.5":
-  version: 2.38.5
-  resolution: "@supabase/supabase-js@npm:2.38.5"
+"@supabase/supabase-js@npm:2.39.0":
+  version: 2.39.0
+  resolution: "@supabase/supabase-js@npm:2.39.0"
   dependencies:
     "@supabase/functions-js": "npm:^2.1.5"
     "@supabase/gotrue-js": "npm:^2.56.0"
@@ -781,7 +781,7 @@ __metadata:
     "@supabase/postgrest-js": "npm:^1.8.6"
     "@supabase/realtime-js": "npm:^2.8.4"
     "@supabase/storage-js": "npm:^2.5.4"
-  checksum: 3ad07f817140f9853072dafb78829033c3d153e110ffbecf51a6c34cdf68e11af2eb5ae9dd37401fe28c4a4ecfaeb0ff7058f27f82a6c3cebd0a979800b43bab
+  checksum: ca3afb51a76ef3a6bcf10b50f3b0797e7534884d936eef966a30de08f8e6464bf4aaaac51f2ce453d8b8496da7d6b2829a35fe7126983731bdf70c6399325411
   languageName: node
   linkType: hard
 
@@ -4730,7 +4730,7 @@ __metadata:
     "@mui/material": "npm:5.14.18"
     "@mui/styled-engine-sc": "npm:5.14.12"
     "@supabase/auth-helpers-nextjs": "npm:0.8.7"
-    "@supabase/supabase-js": "npm:2.38.5"
+    "@supabase/supabase-js": "npm:2.39.0"
     "@types/node": "npm:20.10.0"
     "@types/react": "npm:18.2.39"
     "@types/react-dom": "npm:18.2.17"
