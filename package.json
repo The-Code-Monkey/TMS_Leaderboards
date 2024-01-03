@@ -12,7 +12,7 @@
     "@emotion/react": "11.11.3",
     "@emotion/styled": "11.11.0",
     "@fontsource/roboto": "5.0.8",
-    "@mui/material": "5.15.2",
+    "@mui/material": "5.15.3",
     "@mui/styled-engine-sc": "5.14.12",
     "@supabase/auth-helpers-nextjs": "0.8.7",
     "@supabase/supabase-js": "2.39.2",
