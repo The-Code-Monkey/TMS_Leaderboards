@@ -16,7 +16,7 @@
     "@mui/styled-engine-sc": "5.14.12",
     "@supabase/auth-helpers-nextjs": "0.8.7",
     "@supabase/supabase-js": "2.39.2",
-    "@types/node": "20.10.7",
+    "@types/node": "20.11.0",
     "@types/react": "18.2.47",
     "@types/react-dom": "18.2.18",
     "encoding": "0.1.13",
