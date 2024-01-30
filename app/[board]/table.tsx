@@ -24,8 +24,8 @@ const Table = ({ board, data }: Props) => {
             <TableCell align="center">Date Submitted</TableCell>
             <TableCell align="center">TM Name</TableCell>
             <TableCell>Link</TableCell>
-            <TableCell align="right">ATs</TableCell>
             {board === 'wrrmc' && <TableCell align="right">WRs</TableCell>}
+            <TableCell align="right">ATs</TableCell>
             {board === 'rmc' && <TableCell align="right">Golds</TableCell>}
             {board === 'rms' && <TableCell align="right">Skips</TableCell>}
             {board === 'rms' && (
