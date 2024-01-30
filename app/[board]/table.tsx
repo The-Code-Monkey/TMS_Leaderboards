@@ -25,6 +25,7 @@ const Table = ({ board, data }: Props) => {
             <TableCell align="center">TM Name</TableCell>
             <TableCell>Link</TableCell>
             <TableCell align="right">ATs</TableCell>
+            {board === 'wrrmc' && <TableCell align="right">WRs</TableCell>}
             {board === 'rmc' && <TableCell align="right">Golds</TableCell>}
             {board === 'rms' && <TableCell align="right">Skips</TableCell>}
             {board === 'rms' && (
@@ -48,6 +49,9 @@ const Table = ({ board, data }: Props) => {
                   {row.link}
                 </Link>
               </TableCell>
+              {board === 'wrrmc' && (
+                <TableCell align="right">{row.wrs}</TableCell>
+              )}
               <TableCell align="right">{row.ats}</TableCell>
               {board === 'rmc' && (
                 <TableCell align="right">{row.golds}</TableCell>
