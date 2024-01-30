@@ -33,6 +33,11 @@ export default async function Home() {
               RMC <br /> Leaderboard
             </h1>
           </Link>
+          <Link href="/wrrmc">
+            <h1 className={styles.title}>
+              WR RMC <br /> Leaderboard
+            </h1>
+          </Link>
           <Link href="/rms">
             <h1 className={styles.title}>
               RMS <br /> Leaderboard
