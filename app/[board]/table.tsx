@@ -45,9 +45,9 @@ const Table = ({ board, data }: Props) => {
               <TableCell align="center">{row.date}</TableCell>
               <TableCell align="center">{row.name}</TableCell>
               <TableCell>
-                <Link href={row.link as string} target={'_blank'}>
+                {row.link && <Link href={row.link as string} target={'_blank'}>
                   {row.link}
-                </Link>
+                </Link>}
               </TableCell>
               {board === 'wrrmc' && (
                 <TableCell align="right">{row.wrs}</TableCell>
