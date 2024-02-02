@@ -27,11 +27,20 @@ const Page = async ({ params }: PageProps) => {
   const data = await getData(board);
 
   const sortedData = data.sort((a, b) => {
-    if (a.ats > b.ats) {
-      return -1;
-    }
-    if (a.ats < b.ats) {
-      return 1;
+    if (board.includes('wr') {
+      if (a.wrs > b.wrs) {
+        return -1;
+      }
+      if (a.wrs < b.wrs) {
+        return 1;
+      }
+    } else {
+      if (a.ats > b.ats) {
+        return -1;
+      }
+      if (a.ats < b.ats) {
+        return 1;
+      }
     }
     return 0;
   });
