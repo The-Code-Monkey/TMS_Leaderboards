@@ -28,7 +28,7 @@ const Page = async ({ params }: PageProps) => {
   const data = await getData(board);
 
   const sortedData = data.sort((a, b) => {
-    if (board.includes('wr')) {
+    if (board.includes('wr') && a.wrs && b.wrs) {
       if (a?.wrs > b?.wrs) {
         return -1;
       }
