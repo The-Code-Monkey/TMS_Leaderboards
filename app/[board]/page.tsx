@@ -11,6 +11,7 @@ type RecordType = {
   ats: number;
   skips: number;
   time?: string;
+  wrs?: number;
   validated: boolean;
 };
 
@@ -28,10 +29,10 @@ const Page = async ({ params }: PageProps) => {
 
   const sortedData = data.sort((a, b) => {
     if (board.includes('wr')) {
-      if (a.wrs > b.wrs) {
+      if (a?.wrs > b?.wrs) {
         return -1;
       }
-      if (a.wrs < b.wrs) {
+      if (a?.wrs < b?.wrs) {
         return 1;
       }
     } else {
