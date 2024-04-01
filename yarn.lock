@@ -756,21 +756,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/functions-js@npm:2.1.5":
-  version: 2.1.5
-  resolution: "@supabase/functions-js@npm:2.1.5"
+"@supabase/auth-js@npm:2.63.0":
+  version: 2.63.0
+  resolution: "@supabase/auth-js@npm:2.63.0"
   dependencies:
     "@supabase/node-fetch": "npm:^2.6.14"
-  checksum: 10c0/f2af9f12c9ffa4460998c166d71184bb2fc7753f2063548d482a51db3178da24217cd9dea1be8803356c3fd743848fdfb1e1903d882aa90fa7a7ae0c5dc7d070
+  checksum: 10c0/f1654ad8254508e736705a8142b6e3e161a82532e693493ec878b7a006238e8f7dfc276e7d729fe14ec84b1ec01f3919f272869144ecf6e4e4c357318c92830b
   languageName: node
   linkType: hard
 
-"@supabase/gotrue-js@npm:2.62.2":
-  version: 2.62.2
-  resolution: "@supabase/gotrue-js@npm:2.62.2"
+"@supabase/functions-js@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@supabase/functions-js@npm:2.2.2"
   dependencies:
     "@supabase/node-fetch": "npm:^2.6.14"
-  checksum: 10c0/132bf31f00d321466a5e956e4fcd24ad7d2908b65bafa4b10d7e5c77fb0bd39ca643806de879acd71ae83089a7a581300c91f6a3717a1afec8e122c8dfd05e2c
+  checksum: 10c0/3390190776cdf684ccbc240146e5c4c534f859fd0befb00707e35b1de0437fd93105f27511a90ec59799c006948f84cb5dea81ee39b1d7aa7add9ba9819bd389
   languageName: node
   linkType: hard
 
@@ -822,17 +822,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/supabase-js@npm:2.39.8":
-  version: 2.39.8
-  resolution: "@supabase/supabase-js@npm:2.39.8"
+"@supabase/supabase-js@npm:2.41.1":
+  version: 2.41.1
+  resolution: "@supabase/supabase-js@npm:2.41.1"
   dependencies:
-    "@supabase/functions-js": "npm:2.1.5"
-    "@supabase/gotrue-js": "npm:2.62.2"
+    "@supabase/auth-js": "npm:2.63.0"
+    "@supabase/functions-js": "npm:2.2.2"
     "@supabase/node-fetch": "npm:2.6.15"
     "@supabase/postgrest-js": "npm:1.9.2"
     "@supabase/realtime-js": "npm:2.9.3"
     "@supabase/storage-js": "npm:2.5.5"
-  checksum: 10c0/7bb80941fddc434eebd87b2feb3e8e8477692eab70f7ad0b4640d5a39e71255569e9d88bb29557a5607cb248473a54a3c7b35368a3e85ab107aed9d195857ac3
+  checksum: 10c0/8b1e3166435cb213c49eaecc3e6f15cce5e132b8f32f76dd5faba45e458ef51e1b610210e338e97b45d0ccc94af275d6562a534321f5e2a8d330f5e69e0308da
   languageName: node
   linkType: hard
 
@@ -4693,7 +4693,7 @@ __metadata:
     "@mui/material": "npm:5.15.14"
     "@mui/styled-engine-sc": "npm:5.14.12"
     "@supabase/auth-helpers-nextjs": "npm:0.9.0"
-    "@supabase/supabase-js": "npm:2.39.8"
+    "@supabase/supabase-js": "npm:2.41.1"
     "@types/node": "npm:20.11.30"
     "@types/react": "npm:18.2.73"
     "@types/react-dom": "npm:18.2.23"
