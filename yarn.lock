@@ -866,12 +866,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.12.4":
-  version: 20.12.4
-  resolution: "@types/node@npm:20.12.4"
+"@types/node@npm:20.12.5":
+  version: 20.12.5
+  resolution: "@types/node@npm:20.12.5"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/9b142fcd839a48c348d6b9acfc753dfa4b3fb1f3e23ed67e8952bee9b2dfdaffdddfbcf0e4701557b88631591a5f9968433910027532ef847759f8682e27ffe7
+  checksum: 10c0/2da65516fba98f0417620e42bddbe53e144d4782d69cd37f99df2537c6850b9cfbdb8a017f02c61e9a074bcac84f9f3f221b250474ac8c6b95d507a47e8d53f9
   languageName: node
   linkType: hard
 
@@ -4694,7 +4694,7 @@ __metadata:
     "@mui/styled-engine-sc": "npm:5.14.12"
     "@supabase/auth-helpers-nextjs": "npm:0.9.0"
     "@supabase/supabase-js": "npm:2.42.0"
-    "@types/node": "npm:20.12.4"
+    "@types/node": "npm:20.12.5"
     "@types/react": "npm:18.2.74"
     "@types/react-dom": "npm:18.2.24"
     encoding: "npm:0.1.13"
