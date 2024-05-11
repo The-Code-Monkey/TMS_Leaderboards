@@ -17,7 +17,7 @@
     "@supabase/auth-helpers-nextjs": "0.10.0",
     "@supabase/supabase-js": "2.43.1",
     "@types/node": "20.12.11",
-    "@types/react": "18.3.1",
+    "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
     "encoding": "0.1.13",
     "eslint": "9.2.0",
