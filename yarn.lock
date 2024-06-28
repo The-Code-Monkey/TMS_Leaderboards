@@ -810,15 +810,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/realtime-js@npm:2.10.1":
-  version: 2.10.1
-  resolution: "@supabase/realtime-js@npm:2.10.1"
+"@supabase/realtime-js@npm:2.10.2":
+  version: 2.10.2
+  resolution: "@supabase/realtime-js@npm:2.10.2"
   dependencies:
     "@supabase/node-fetch": "npm:^2.6.14"
     "@types/phoenix": "npm:^1.5.4"
     "@types/ws": "npm:^8.5.10"
     ws: "npm:^8.14.2"
-  checksum: 10c0/5528795623b0464c7ce1e86f36732673f923413036a2173e716ababa64bd6fd31e9886c66a14e0102130a14c287c71e66379a3a5caa451e00ea2a5965302c0e8
+  checksum: 10c0/d33bb7c124c5014ad3f308bb9837f74a33e408976595bda2a8955e2685e89654259738cb2409c31a3aef3892d22d3986c2880437083a87f1a47e828dd2f27eb9
   languageName: node
   linkType: hard
 
@@ -831,17 +831,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@supabase/supabase-js@npm:2.44.1":
-  version: 2.44.1
-  resolution: "@supabase/supabase-js@npm:2.44.1"
+"@supabase/supabase-js@npm:2.44.2":
+  version: 2.44.2
+  resolution: "@supabase/supabase-js@npm:2.44.2"
   dependencies:
     "@supabase/auth-js": "npm:2.64.2"
     "@supabase/functions-js": "npm:2.4.1"
     "@supabase/node-fetch": "npm:2.6.15"
     "@supabase/postgrest-js": "npm:1.15.7"
-    "@supabase/realtime-js": "npm:2.10.1"
+    "@supabase/realtime-js": "npm:2.10.2"
     "@supabase/storage-js": "npm:2.6.0"
-  checksum: 10c0/6d500152573d41b7325299d32d669ed5362cc6ea13bf3d51ef25f167ce82258d4c7e578f816f8ae4f74a9d04929b6e96813fa812d1708ce86d361da9ea28872f
+  checksum: 10c0/49368f03d390c69a8c02d857bf49de50e80f75d3d449e1f096559788c55267391a6683df948bc22f07e8271ff2fc99e624c7c4edd36211d4f49ee693fb4bb4e3
   languageName: node
   linkType: hard
 
@@ -4735,7 +4735,7 @@ __metadata:
     "@mui/material": "npm:5.15.21"
     "@mui/styled-engine-sc": "npm:5.14.12"
     "@supabase/auth-helpers-nextjs": "npm:0.10.0"
-    "@supabase/supabase-js": "npm:2.44.1"
+    "@supabase/supabase-js": "npm:2.44.2"
     "@types/node": "npm:20.14.9"
     "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
